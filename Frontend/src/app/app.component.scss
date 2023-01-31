@@ -10,4 +10,46 @@
   .list-left {
     text-align: left;
   }
+
+  td {
+    text-align: left;
+    vertical-align: middle;
+  }
+
+  td:first-child {
+    width: 150px;
+  }
+
+  td:last-child {
+    text-align: right;
+    width: 226px;
+  }
+
+  tr.complete {
+    background-color: #d1e7dd;
+
+    td {
+      color: white;
+      text-decoration: line-through;
+    }
+  }
+
+  .btn-delete {
+    background-color: indianred;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .error input {
+    color: firebrick;
+    border-color: firebrick;
+    margin-bottom: 10px;
+  }
+
+  .error .alert {
+    color: firebrick;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
 }
