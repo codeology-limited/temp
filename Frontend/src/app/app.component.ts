@@ -44,7 +44,11 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
  *      that these test would add more complexity to the system than the value they would bring.  The exception here
  *      is the error handlers. If they were to get more complex, then they would benefit from a unit test.
  *
- *      I have UI tested the primary functionality.  The post to the backend is mocked, and there already exist tests
+ *      I have UI tested the primary functionality.  I have chosen because of the limited scope of this test
+ *      to use css selectors rather than a page model, although personally I would favour simple selectors over
+ *      a more complex page model.
+ *
+ *      The post to the backend is mocked, and there already exist tests
  *      of the API around posting.  I have also added two tests to the create in the back end.
  *
  *
